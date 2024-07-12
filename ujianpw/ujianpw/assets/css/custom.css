@@ -1,0 +1,83 @@
+/* Style untuk judul dan navigasi */
+.section.is-title-bar {
+    background-color: #f0f0f0;
+    padding: 1rem 0;
+  }
+  
+  .section.is-title-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section.is-title-bar ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .section.is-hero-bar {
+    background-color: #3498db;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .section.is-main-section {
+    padding: 2rem 0;
+  }
+  
+  .card-header-title .icon {
+    margin-right: 5px;
+  }
+  
+  /* Style untuk tombol aksi */
+  .buttons.is-right {
+    margin-left: auto;
+  }
+  
+  .buttons.is-right .button {
+    margin-left: 5px;
+  }
+  
+  /* Style untuk tabel */
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .table.is-fullwidth {
+    width: 100%;
+  }
+  
+  /* Style untuk form */
+  .card .field {
+    margin-bottom: 1rem;
+  }
+  
+  .card .field .label {
+    font-weight: bold;
+  }
+  
+  .card .field .control {
+    margin-top: 0.5rem;
+  }
+  
+  .card .field.is-grouped .control {
+    display: flex;
+  }
+  
+  .card .field.is-grouped .control .button {
+    margin-right: 10px;
+  }
+  
+  /* Style untuk ikon */
+  .icon {
+    vertical-align: middle;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .buttons.is-right {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
